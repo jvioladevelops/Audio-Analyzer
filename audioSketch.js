@@ -6,7 +6,7 @@ var band;
  
 //We dont need this function the program will run without it but we get an appendChild error if it is removed
 preload = function() {
-    song = loadSound("skyrim-orchestra.mp3");
+    song = loadSound("skyrim.mp3");
   }
  var t = function (p) {
    var song;
@@ -15,10 +15,10 @@ preload = function() {
      p.createCanvas(350, 350);
      p.colorMode(p.RGB, 100);
      //p.colorMode(p.HSB);
-     song = p.loadSound("skyrim-orchestra.mp3", loaded);
+     song = p.loadSound("skyrim.mp3", loaded);
      fft = new p5.FFT(0, bandwidth);
      band = p.width / bandwidth;
-     song.amp(0.2);
+     song.amp(0.6);
      //cnv.mousePressed(p.canvasPressed); dont need this unless we want the song to play when  the canvas is pressed 
 
      playAudioButton = audio.select('#play');
@@ -33,7 +33,7 @@ preload = function() {
 
  function togglePlaying() {
   if (!song.isPlaying()) {
-    p.getAudioContext().resume();
+    //p.getAudioContext().resume();
     song.play();
     audioStarted = true;
     playAudioButton.html('Pause');
@@ -57,7 +57,7 @@ preload = function() {
 
    p.draw = function() {
     p.background(55);
-    p.smooth(1);
+    //p.smooth(1);
     if (audioStarted == true){
       console.log(audioStarted);
     let spectrum = fft.analyze();
@@ -70,7 +70,7 @@ preload = function() {
       //p.colorMode(p.HSB);
       //let h = -p.height + p.map(spectrum[i], 0, 256, p.height, 0);
       p.fill(2, i, 25);
-      p.smooth(1);
+      //p.smooth(1);
       p.rect(i * band, y, band - 5, p.height - y)
     }
 
@@ -81,7 +81,7 @@ preload = function() {
     for (let i = 0; i < waveform.length; i++){
       let x = p.map(i, 0, waveform.length, 0, p.width);
       let y = p.map(waveform[i], -1, 1, 0, p.height);
-      p.vertex(x,y);
+      p.vertex(x,y - 50);
     }
     p.endShape();
 
