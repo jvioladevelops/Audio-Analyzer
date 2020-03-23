@@ -30,12 +30,8 @@ var s = function(p) {
 
   function touchStarted() {
     if (p.getAudioContext().state !== 'running') {
-      micButton.html('Pause Mic');
+      //icButton.html('Pause Mic');
       p.getAudioContext().resume();
-    }
-    else {
-      p.getAudioContext().suspend();
-      micButton.html('Start Mic');
     }
   }
 
