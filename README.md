@@ -4,11 +4,9 @@ Welcome to the Audio Visualizer
 
 
 
-![test image size](3v6j7e.gif s=200)
-![test image size](3v6j7e.gif){:height="50%" width="50%"}
-![test image size](3v6j7e.gif){:height="700px" width="400px"}
 
-<img src="https://cloud.githubusercontent.com/assets/yourgif.gif" width="400" height="790">
+
+<img src="https://github.com/jvioladevelops/Audio-Analyzer/blob/master/3v6j7e.gif" width="400" height="790">
 
 
 
