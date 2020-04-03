@@ -6,7 +6,7 @@ Welcome to the Audio Visualizer
 
 
 
-<img src="https://github.com/jvioladevelops/Audio-Analyzer/blob/master/3v6j7e.gif" width="400" height="790">
+<img src="https://github.com/jvioladevelops/Audio-Analyzer/blob/master/3v6j7e.gif" width="400" height="400">
 
 
 
