@@ -4,4 +4,4 @@ Welcome to the Audio Analyzer
 
 
 
-<img src="https://github.com/jvioladevelops/Audio-Analyzer/blob/master/3v6j7e.gif" width="700" height="400">
+<img src="https://github.com/jvioladevelops/Audio-Analyzer/blob/master/public/images/audioAnalyzer.gif" width="700" height="400">
