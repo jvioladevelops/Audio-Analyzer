@@ -4,7 +4,7 @@ Welcome to the Audio Visualizer
 
 
 
-![test image size](3v6j7e.gif){:class="img-responsive"}
+![test image size](3v6j7e.gif s=200)
 ![test image size](3v6j7e.gif){:height="50%" width="50%"}
 ![test image size](3v6j7e.gif){:height="700px" width="400px"}
 
