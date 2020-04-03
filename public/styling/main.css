@@ -5,7 +5,8 @@
 }
 
 #navBar{
-    background-color: rgb(56, 72, 99);
+    background-color: grey;
+    position: center;
 }
 
 .btn{
