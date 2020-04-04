@@ -2,7 +2,6 @@
 
 Welcome to the Audio Analyzer 
 
-##
 
 I hope that you enjoy! (Use on a desktop/laptop with Google Chrome)
 
@@ -25,6 +24,4 @@ Is measured in amplitude and controls the level until the key is released
 
 # Release
 Is measured in time and controls the time as the amplitude reaches 0
-
-##
 
