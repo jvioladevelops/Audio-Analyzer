@@ -1,6 +1,6 @@
 # Audio Analyzer
 
-Welcome to the Audio Analyzer 
+Welcome to the Audio Analyzer.
 
 
 I hope that you enjoy! (Use on a desktop/laptop with Google Chrome)
