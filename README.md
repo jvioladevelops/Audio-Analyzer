@@ -5,6 +5,8 @@ Welcome to the Audio Analyzer.
 
 I hope that you enjoy! (Use on a desktop/laptop with Google Chrome)
 
+A live version can be found here: <https://jvioladevelops.github.io/Audio-Analyzer/>
+
 
 
 <img src="https://github.com/jvioladevelops/Audio-Analyzer/blob/master/public/images/audioAnalyzergif.gif" width="900" height="400">
